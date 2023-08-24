@@ -1,0 +1,14 @@
+.edit{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.edit_btn{
+    width: 60%;
+    height: 40px;
+    background-color: darkolivegreen;
+}

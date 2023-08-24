@@ -1,0 +1,11 @@
+.modal_menu{
+    width: 244px;
+    height: 552px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 650px;
+    top: 500px;
+    background-color: bisque;
+    box-shadow: 0 0 12px black;
+}

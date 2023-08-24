@@ -1,0 +1,60 @@
+.mainScreen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.fruits-Section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+
+.fruit-Banner{
+    width: 100%;
+    height: 200px;
+    background-image: url(/public/fruit.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+}
+
+.products_Container{
+    width: 1300px;
+    height: 3464px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.options-Box{
+    width: 210px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 13px;
+    background: #f7f6f2;
+    box-shadow: 0 0 11px rgba(0,0,0,.1);
+}
+
+.productsCard{
+    width: 1060px;
+    height: 3444px;
+    background-color: darkblue;
+}
+
+.back{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid #40B672;
+    background-image: url(/public/back.png);
+    background-position: center;
+    background-size: cover;
+}

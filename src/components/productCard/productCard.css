@@ -1,0 +1,51 @@
+.productCard{
+    width: 244px;
+    height: 552px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffff;
+    box-shadow: 0 0 12px black;
+}
+
+.img_box{
+    width: 165px;
+    height: 165px;
+}
+
+.img_box img{
+    width: 100%;
+    height: 100%;
+}
+
+.productTitle{
+    width: 225px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 2px solid black;
+}
+
+.productPrice{
+    width: 225px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    color: black;
+    font-family: sans-serif;
+}
+
+.productCount{
+    width: 205px;
+    height: 85px;
+}
+
+.productEdit{
+    width: 100%;
+    height: 50px;
+}
